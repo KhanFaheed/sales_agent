@@ -1,0 +1,211 @@
+[
+    {
+      "model": "sales.product",
+      "pk": 1,
+      "fields": {
+        "name": "Laptop",
+        "description": "High-performance laptop",
+        "price": "1200.00",
+        "stock": 100
+      }
+    },
+    {
+      "model": "sales.product",
+      "pk": 2,
+      "fields": {
+        "name": "Mouse",
+        "description": "Wireless mouse",
+        "price": "25.00",
+        "stock": 500
+      }
+    },
+    {
+      "model": "sales.product",
+      "pk": 3,
+      "fields": {
+        "name": "Keyboard",
+        "description": "Mechanical keyboard",
+        "price": "80.00",
+        "stock": 200
+      }
+    },
+      {
+      "model": "sales.product",
+      "pk": 4,
+      "fields": {
+        "name": "Monitor",
+        "description": "27-inch 4K display",
+        "price": "350.00",
+        "stock": 150
+      }
+    },
+      {
+      "model": "sales.product",
+      "pk": 5,
+      "fields": {
+        "name": "Headphones",
+        "description": "Noise-cancelling headphones",
+        "price": "150.00",
+        "stock": 300
+      }
+    },
+    {
+      "model": "sales.customer",
+      "pk": 1,
+      "fields": {
+        "name": "Alice Smith",
+        "email": "alice@example.com"
+      }
+    },
+    {
+      "model": "sales.customer",
+      "pk": 2,
+      "fields": {
+        "name": "Bob Johnson",
+        "email": "bob@example.com"
+      }
+    },
+      {
+      "model": "sales.customer",
+      "pk": 3,
+      "fields": {
+        "name": "Charlie Brown",
+        "email": "charlie@example.com"
+      }
+    },
+      {
+      "model": "sales.customer",
+      "pk": 4,
+      "fields": {
+        "name": "David Lee",
+        "email": "david@example.com"
+      }
+    },
+      {
+      "model": "sales.customer",
+      "pk": 5,
+      "fields": {
+        "name": "Eve Wilson",
+        "email": "eve@example.com"
+      }
+    },
+      {
+      "model": "sales.sale",
+      "pk": 1,
+      "fields": {
+          "product": 1,
+          "quantity": 2,
+          "sale_date": "2024-01-01T10:00:00Z"
+      }
+      },
+      {
+      "model": "sales.sale",
+      "pk": 2,
+      "fields": {
+          "product": 2,
+          "quantity": 5,
+          "sale_date": "2024-01-02T12:00:00Z"
+      }
+      },
+      {
+      "model": "sales.sale",
+      "pk": 3,
+      "fields": {
+          "product": 3,
+          "quantity": 1,
+          "sale_date": "2024-01-03T14:30:00Z"
+      }
+      },
+      {
+      "model": "sales.sale",
+      "pk": 4,
+      "fields": {
+          "product": 4,
+          "quantity": 3,
+          "sale_date": "2024-01-04T16:45:00Z"
+      }
+      },
+      {
+      "model": "sales.sale",
+      "pk": 5,
+      "fields": {
+          "product": 5,
+          "quantity": 2,
+          "sale_date": "2024-01-05T18:15:00Z"
+      }
+      },
+       {
+      "model": "sales.sale",
+      "pk": 6,
+      "fields": {
+          "product": 1,
+          "quantity": 1,
+          "sale_date": "2024-01-06T09:00:00Z"
+      }
+      },
+      {
+      "model": "sales.sale",
+      "pk": 7,
+      "fields": {
+          "product": 3,
+          "quantity": 4,
+          "sale_date": "2024-01-07T11:20:00Z"
+      }
+      },
+      {
+      "model": "sales.customersale",
+      "pk": 1,
+      "fields":{
+          "customer": 1,
+          "sale": 1
+      }
+      },
+      {
+      "model": "sales.customersale",
+      "pk": 2,
+      "fields":{
+          "customer": 2,
+          "sale": 2
+      }
+      },
+      {
+      "model": "sales.customersale",
+      "pk": 3,
+      "fields":{
+          "customer": 3,
+          "sale": 3
+      }
+      },
+      {
+      "model": "sales.customersale",
+      "pk": 4,
+      "fields":{
+          "customer": 4,
+          "sale": 4
+      }
+      },
+      {
+      "model": "sales.customersale",
+      "pk": 5,
+      "fields":{
+          "customer": 5,
+          "sale": 5
+      }
+      },
+      {
+      "model": "sales.customersale",
+      "pk": 6,
+      "fields":{
+          "customer": 1,
+          "sale": 6
+      }
+      },
+      {
+      "model": "sales.customersale",
+      "pk": 7,
+      "fields":{
+          "customer": 2,
+          "sale": 7
+      }
+      }
+  ]
